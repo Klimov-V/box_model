@@ -30,7 +30,12 @@ body {
     font-size: 21px;
     color: #1b1b1b;
     text-transform: uppercase;
-    
+    display: table;
+    padding: 30px;
+    margin: 0 auto;
+}
+.feature h4 div {
+    display: table-cell;
 }
   
 .features {
