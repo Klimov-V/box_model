@@ -30,11 +30,21 @@ body {
     font-size: 21px;
     color: #1b1b1b;
     text-transform: uppercase;
+    
     height: 60px;
     transition: all .2s ease-in;
+    position: relative;
+}
+.feature h4 span {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
  
-.feature i {
+.feature i,
+.feature  {
     font-size: 60px;
     color: #1b1b1b;
     transition: all .2s ease-in;
@@ -48,7 +58,6 @@ body {
     display: inline-block;
     width: 25%;
     min-height: 420px;
-    /* margin: 1%; */
     text-align: center;
     vertical-align: top;
     background-color: #f7f7f7;
